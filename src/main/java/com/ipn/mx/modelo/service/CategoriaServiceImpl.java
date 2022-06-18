@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.ipn.mx.modelo.dao.ICategoriaDAO;
 import com.ipn.mx.modelo.entidades.Categoria;
-
 @Service
 public class CategoriaServiceImpl implements ICategoriaService{
 	@Autowired
